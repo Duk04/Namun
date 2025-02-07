@@ -45,6 +45,29 @@
   animation-delay: calc(-0.8 * var(--d));
   --r: -8deg;
 }
+.gallery > img:nth-child(6) {
+  animation-delay: calc(-0.8 * var(--d));
+  --r: -8deg;
+}
+.gallery > img:nth-child(7) {
+  animation-delay: calc(-0.8 * var(--d));
+  --r: -8deg;
+}
+.gallery > img:nth-child(8) {
+  animation-delay: calc(-0.8 * var(--d));
+  --r: -8deg;
+}
+.gallery > img:nth-child(9) {
+  animation-delay: calc(-0.8 * var(--d));
+  --r: -8deg;
+}
+.gallery > img:nth-child(10) {
+  animation-delay: calc(-0.8 * var(--d));
+  --r: -8deg;
+}
+.txt {
+  margin-top: 40px;
+}
 
 @keyframes slide {
   10% {
@@ -99,7 +122,7 @@ body {
 #shine {
   font-size: 60px;
   font-weight: bold;
-  color: rgba(255, 0, 102, 0.3);
+  color: rgba(89, 6, 6, 0.3);
   z-index: 10;
   background: -webkit-gradient(
       linear,
@@ -115,7 +138,7 @@ body {
   -webkit-animation-name: shine;
   -webkit-animation-duration: 3s; /* Adjust the duration as needed */
   -webkit-animation-iteration-count: infinite;
-  text-shadow: 0 0px 0px rgba(233, 85, 189, 0.419);
+  text-shadow: 0 0px 0px rgba(155, 20, 114, 0.419);
 }
 
 @-webkit-keyframes shine {
